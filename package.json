@@ -1,0 +1,14 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "Static site starter with Parcle bundler.",
+  "scripts": {
+    "start": "parcel serve ./src/*.html",
+    "build": "parcel build ./src/*.html"
+  },
+  "author": "Hasib",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
