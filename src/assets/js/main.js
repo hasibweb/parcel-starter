@@ -1,5 +1,3 @@
-try {
-  console.log('App running');
-} catch (error) {
-  console.log(error);
-}
+import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
+
+console.log('App running');
