@@ -1,3 +1,6 @@
-import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import '../scss/main.scss'
+import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle'
 
-console.log('App running');
+const welcome = 'Welcome to our site'
+
+console.log(welcome)

@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "Static site starter with Parcle bundler.",
   "scripts": {
-    "start": "rm -rf ./development && parcel serve ./src/*.html --dist-dir development",
-    "build": "parcel build ./src/*.html --dist-dir dist"
+    "start": "rimraf ./dev && parcel serve ./src/*.html --dist-dir dev",
+    "build": "rimraf ./dist && parcel build ./src/*.html --dist-dir dist"
   },
   "author": "Hasib",
   "license": "MIT",
+  "browserslist": "> 0.2%",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.0.0-beta.2",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
+    "bootstrap": "^5.0.0"
   }
 }
